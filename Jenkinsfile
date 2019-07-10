@@ -2,7 +2,7 @@ node {
   stage("Git Checkout"){
     checkout(scm)
   }
-  statge ("Run Python"){
+  stage ("Run Python"){
     sh 'python hello-world.py'
   }
 }
