@@ -3,6 +3,6 @@ node {
     checkout(scm)
   }
   stage ("Run Python"){
-    sh '/usr/bin/python hello-world.py'
+    sh '/usr/bin/python3 python3 hello-world.py'
   }
 }
