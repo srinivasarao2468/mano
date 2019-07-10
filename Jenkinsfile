@@ -4,6 +4,6 @@ node {
   }
   
   stage('Test') {
-            sh 'python hello-world.py'
+            sh '/usr/bin/python3 hello-world.py'
         }
 }
